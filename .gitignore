@@ -1,0 +1,57 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+_deps/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+!cmake/*.cmake.in
+DartConfiguration.tcl
+CTestTestfile.cmake
+Testing/
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+tableau_tests
+tableau_benchmarks
+three_body_core_tests
+black_hole_core_tests
+golf_core_tests
+three_body_demo
+black_hole_demo
+golf_demo
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test outputs
+test_results.xml
+*.log
+
+# Benchmark outputs
+results/
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+
+# Package managers
+.cache/
+vcpkg_installed/
